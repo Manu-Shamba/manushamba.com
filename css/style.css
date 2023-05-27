@@ -1,0 +1,237 @@
+/**ID selectors**/
+
+#title,
+#videos,
+#photos,
+#bio,
+#shop {
+    background-color: #61dfd2;
+    color: #00665c;
+}
+
+#actu,
+#media,
+#musique,
+#concerts,
+#contact {
+    background-color: #fff1c9;
+}
+
+/**Tags selectors**/
+
+body,
+div,
+p {
+    font-family: "Montserrat";
+}
+
+nav {
+    padding: 10px;
+    background-color: #002643;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+section {
+    padding: 5% 7%;
+}
+
+footer {
+    text-align: center;
+    color: grey;
+    padding: 5px;
+}
+
+/**class selectors**/
+
+
+
+/*Navbar*/
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/*Title cover*/
+
+.cover {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.img-logo {
+    max-width: 70vw;
+    mix-blend-mode: multiply;
+}
+
+/*Actualites*/
+
+.actu-img {
+    max-width: 70%;
+}
+
+.actu-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.actu-box p {
+    color: rgb(92, 92, 92);
+}
+
+/*Videos*/
+
+.video-box {
+    border-radius: 5px;
+    margin: 10px;
+    max-width: 30%;
+    flex: auto;
+}
+
+/*Media*/
+
+.container-interview {
+    text-align: center;
+}
+
+.interview {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    /*background-color: #a6ddd8;*/
+    min-height: 150px;
+    max-width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.interview a {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.small-link {
+    font-weight: 400 !important;
+    font-size: 0.8rem !important;
+
+}
+
+.radio-container {
+    text-align: center;
+}
+
+.radio-logo {
+    max-height: 100px;
+    margin: 20px;
+    box-shadow: 10px 10px 5px #002643;
+}
+
+/*photos*/
+
+.carousel-photo {
+    margin: auto;
+    max-height: 75vh;
+}
+
+.carousel-indicators,
+.carousel-ctrl {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*musique*/
+
+.album-cover-card {
+    margin: 30px;
+}
+
+.album-cover-img {
+    max-width: 30%;
+    max-height: 250px;
+}
+
+.distrib{
+    max-width: 20%;
+}
+
+/*Shop*/
+
+.shop-card {
+    margin-bottom: 20px;
+}
+
+/*Contact*/
+
+.contact-form {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-element {
+    margin: 15px;
+}
+
+.contact-table {
+    margin: auto;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #002643;
+}
+
+/**Media Queries**/
+
+@media (max-width: 1300px) {
+
+    /*photos*/
+
+    .carousel-photo {
+        margin: auto;
+        max-width: 50vw;
+    }
+
+    /*Musique*/
+
+    .bc-logo-container {
+        margin: auto;
+    }
+
+    .bc-logo {
+        max-width: 70%;
+    }
+
+
+}
