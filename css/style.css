@@ -91,7 +91,7 @@ footer {
 
 .img-logo {
     max-width: 70vw;
-    mix-blend-mode: multiply;
+    /*mix-blend-mode: multiply;*/
 }
 
 /*Actualites*/
@@ -107,6 +107,11 @@ footer {
 
 .actu-box p {
     color: rgb(92, 92, 92);
+}
+
+.actu-box .bouton-commande {
+    margin: auto;
+    margin-bottom: 25px;
 }
 
 /*Videos*/
@@ -188,6 +193,12 @@ footer {
 
 .shop-card {
     margin-bottom: 20px;
+}
+
+#product-component-1694421204489 {
+    display: inline-block;
+    vertical-align: top;
+    color: #00665c;
 }
 
 /*Contact*/
