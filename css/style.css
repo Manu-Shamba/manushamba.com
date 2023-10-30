@@ -17,6 +17,10 @@
     background-color: #fff1c9;
 }
 
+#photos {
+	min-height: 100vh;
+}
+
 /**Tags selectors**/
 
 body,
@@ -164,6 +168,11 @@ footer {
 
 /*photos*/
 
+.carousel-box {
+	width: 100%;
+	min-height: 100vh;
+}
+/*
 .carousel-photo {
     margin: auto;
     max-height: 75vh;
@@ -172,7 +181,7 @@ footer {
 .carousel-indicators,
 .carousel-ctrl {
     background-color: rgba(0, 0, 0, 0.5);
-}
+}*/
 
 /*musique*/
 
