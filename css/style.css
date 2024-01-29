@@ -190,8 +190,8 @@ footer {
 }
 
 .album-cover-img {
-    max-width: 30%;
-    max-height: 250px;
+    max-width: 100%;
+    max-height: 280px;
 }
 
 .distrib{
@@ -202,12 +202,25 @@ footer {
 
 .shop-card {
     margin-bottom: 20px;
+	width: 280px;
 }
 
-#product-component-1694421204489 {
+.two-buttons {
+    margin-bottom: 20px;
+	width: 100%;
+}
+
+.pachamama-img {
+	display: block;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+#product-component-1700484196017, #product-component-1700484237289 {
     display: inline-block;
     vertical-align: top;
-    color: #00665c;
+	margin-bottom: 20px;
 }
 
 /*Contact*/
